@@ -1,0 +1,50 @@
+.s1 {
+ background-color: rgb(255, 250, 241);
+}
+
+.s2 {
+    background-color: rgb(255, 244, 222);
+}
+
+.s3 {
+    background-color: rgb(255, 236, 202);
+}
+
+.s4 {
+    background-color: rgb(255, 231, 186);
+}
+h3 {
+ width: 110px;;
+ height: auto;
+ text-align: center;
+ font-size: 120%;
+}
+.s1 h3  {
+    background-color: rgb(255, 210, 255);
+    color:maroon;
+}
+.s2 h3 {
+    background-color: rgb(237, 199, 237);
+    color:maroon;
+}
+.s3 h3  {
+    background-color: rgb(244, 176, 244);
+    color:maroon;
+}
+.s4 h3  {
+    background-color: rgb(250, 145, 250);
+    color:maroon;
+}
+.s1 p {
+    color: darkgreen;
+    font-size: 100%;
+}
+.s2 div {
+    color: rgb(59, 159, 59);
+}
+.s3 th{
+    color: rgb(5, 119, 51);
+}
+.s3 td{
+    color: rgb(5, 119, 51);
+}
