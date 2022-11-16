@@ -1,50 +1,141 @@
 .s1 {
- background-color: rgb(255, 250, 241);
+    background-color: #FFFAF1;
 }
 
 .s2 {
-    background-color: rgb(255, 244, 222);
+    background-color: #FFF4DE;
 }
 
 .s3 {
-    background-color: rgb(255, 236, 202);
+    background-color: #FFE2CA;
 }
 
 .s4 {
-    background-color: rgb(255, 231, 186);
+    background-color: #FFE7BA;
 }
+
 h3 {
- width: 110px;;
- height: auto;
- text-align: center;
- font-size: 120%;
+    width: 110px;
+    height: auto;
+    text-align: center;
+    font-size: 120%;
+    font-family: Lobster;
+    vertical-align: bottom;
 }
-.s1 h3  {
-    background-color: rgb(255, 210, 255);
-    color:maroon;
+
+.s1 h3 {
+    background-color: #FFD2FF;
+    color: maroon;
+    
 }
+
 .s2 h3 {
-    background-color: rgb(237, 199, 237);
-    color:maroon;
+    background-color: #EDC7ED;
+    color: maroon;
 }
-.s3 h3  {
-    background-color: rgb(244, 176, 244);
-    color:maroon;
+
+.s3 h3 {
+    background-color: #F4B0F4;
+    color: maroon;
 }
-.s4 h3  {
-    background-color: rgb(250, 145, 250);
-    color:maroon;
+
+.s4 h3 {
+    background-color: #FA91FA;
+    color: maroon;
 }
+
 .s1 p {
-    color: darkgreen;
+    color: #9B23B9;
     font-size: 100%;
+    font-family: Cormorant;
 }
+
 .s2 div {
-    color: rgb(59, 159, 59);
+    color: #A40070;
+    font-family: Cormorant;
 }
-.s3 th{
-    color: rgb(5, 119, 51);
+
+.s3 th {
+    color: #981566;
+    font-family: Cormorant;
 }
-.s3 td{
-    color: rgb(5, 119, 51);
+
+.s3 td {
+    color: #981566;
+    font-family: Cormorant;
+}
+
+h1 {
+    font-family: Playfair Display;
+}
+
+h2 {
+    font-family: Playfair Display;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+
+    .flex-container {
+        flex-flow: row wrap;
+    }
+
+    .s1,
+    .s2,
+    .s3,
+    .s4 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 993px) {
+
+    .flex-container {
+        flex-flow: row wrap;
+    }
+
+    .s1,
+    .s2,
+    .s3 {
+        width: 33%;
+    }
+
+    .s4 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1201px) {
+
+    .flex-container {
+        flex-flow: row wrap;
+    }
+
+    .s1,
+    .s2,
+    .s3,
+    .s4 {
+        width: 25%;
+    }
+
 }
